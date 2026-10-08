@@ -1,0 +1,170 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make all",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make all",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make debug",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make debug",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make release",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make release",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make test",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make test",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make clean",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make clean",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make format",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make format",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make tidy",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make tidy",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make docs",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make docs",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "make regression",
+            "type": "shell",
+            "command": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "-lc",
+                "cd \"$1\" && make regression",
+                "_",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "MSYSTEM": "UCRT64"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}
